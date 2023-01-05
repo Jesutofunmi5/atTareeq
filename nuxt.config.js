@@ -4,10 +4,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-  generate: {
-    exclude: [/^\/login/, /^\/messages/, /^\/reviews/, /^\/profile/, /^\/users/, /^\/password/, /^\/categories/, /^\//,]
-  },
-  // Global page headers: https://go.nuxtjs.dev/config-head
+  // generate: {
+  //   exclude: [/^\/login/, /^\/messages/, /^\/reviews/, /^\/profile/, /^\/users/, /^\/password/, /^\/categories/, /^\//,]
+  // },
+  // // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'at-admin',
     htmlAttrs: {
